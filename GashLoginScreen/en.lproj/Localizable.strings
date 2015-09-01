@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  GashLoginScreen
+
+  Created by dzhillian on 8/21/15.
+  Copyright (c) 2015 flabs. All rights reserved.
+*/
+"Login" = "LoginLocalized";
+"Password" = "PasswordLocalized";
+"Sign in" = "Sign in Localized";
+"Home screen" = "Home screen Localized";

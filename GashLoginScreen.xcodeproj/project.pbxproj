@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D47A6061B872D210048AD80 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D47A6081B872D210048AD80 /* Localizable.strings */; };
+		69E690589BA13C820C06AF2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E699C76787CF49893F5BF2 /* ViewController.m */; };
+		69E690752E4C3ED6B03D88C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69E69B3365B17D705DA894D1 /* LaunchScreen.xib */; };
+		69E69115E3317B7411917979 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E69BFED8C0A92CBFCBEF22 /* ASINetworkQueue.m */; };
+		69E6924F70F23E5DBC88D5AF /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E69071DE6CF6ED93E30551 /* ASIHTTPRequest.m */; };
+		69E69406953E0B577348F796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E69A3EDC50139D51A40D47 /* Main.storyboard */; };
+		69E6955FBBAEEA095F07C3B2 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E6947255042784E5E47A93 /* ASIDownloadCache.m */; };
+		69E697696D180CB12386F4F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E699E78FC2C137C1959402 /* Images.xcassets */; };
+		69E698C9A1164277114A4666 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E6987C72B176AFB816BCD6 /* ASIInputStream.m */; };
+		69E6995C81ACC3E2DDDE28D3 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E692F12992C949871AD764 /* ASIFormDataRequest.m */; };
+		69E69BD20CD08B1F701D89CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E698B2158DA069D5A2BB24 /* AppDelegate.m */; };
+		69E69CB9F3850A6F30ED593C /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E6949730504C9D9DDFD437 /* ASIAuthenticationDialog.m */; };
+		69E69E1F8C54F996298E3102 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E69761B021861570647023 /* main.m */; };
+		69E69E4F7A5D382B856F467D /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E6972122A258CF15C28338 /* ASIDataCompressor.m */; };
+		69E69E808D4F028DC1D08A64 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E69555F976D43D1524ED01 /* ASIDataDecompressor.m */; };
+		69E69F730CB97ECE67BA7DD8 /* GashLoginScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E6902C2EF3378765E285CB /* GashLoginScreenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69E691770478C7E6EC05BDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69E69D647E442CB1CD38CA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69E69C7BF62FCC96942CCA0D;
+			remoteInfo = GashLoginScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D47A6041B872CA10048AD80 /* ru-KZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-KZ"; path = "ru-KZ.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3D47A6051B872CA10048AD80 /* ru-KZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-KZ"; path = "ru-KZ.lproj/Main.strings"; sourceTree = "<group>"; };
+		3D47A6071B872D210048AD80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3D47A6091B872D380048AD80 /* ru-KZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-KZ"; path = "ru-KZ.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		69E6901B3F8B41027397A084 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69E6902C2EF3378765E285CB /* GashLoginScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GashLoginScreenTests.m; sourceTree = "<group>"; };
+		69E69071DE6CF6ED93E30551 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		69E691A9EAA08753AFC29A38 /* GashLoginScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GashLoginScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E6922F29524FA8F41094DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		69E692E46B67E01C869F6F70 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		69E692F12992C949871AD764 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		69E69304AB533A892EC036BC /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		69E6934C689BF839518C4A65 /* GashLoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GashLoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E6947255042784E5E47A93 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		69E6949730504C9D9DDFD437 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		69E694DAA771471B81976A4E /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		69E69555F976D43D1524ED01 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		69E6972122A258CF15C28338 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		69E69761B021861570647023 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69E6987C72B176AFB816BCD6 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		69E698B2158DA069D5A2BB24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69E699C76787CF49893F5BF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69E699E78FC2C137C1959402 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69E69A0718F56A11D5A92603 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		69E69A5D86E72B293ABD5405 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69E69A96E2ECC22C9D77CA72 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		69E69BFED8C0A92CBFCBEF22 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		69E69C2BC64896042C98F7C7 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		69E69C5B5B2C1F1285B639E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		69E69C5FB0850C058B77CCFC /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		69E69CBA008826667CF924CA /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		69E69D06011322B682FA4190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		69E69DCD7C72B5569B89B409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69E69DD8F7DF2E5F7104E96E /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		69E69DEB8D11730F0EB218B4 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		69E69E2169CBCAA396671432 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		69E69EDE65A3DDEC46234F1C /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69E690CE189CA0B451900409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E695FED4CE1938773461B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69E69949FACF280432B05A8F /* GashLoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				69E69DBA5B31BFD9262D3152 /* Supporting Files */,
+				69E699E78FC2C137C1959402 /* Images.xcassets */,
+				69E69B3365B17D705DA894D1 /* LaunchScreen.xib */,
+				69E6901B3F8B41027397A084 /* AppDelegate.h */,
+				69E698B2158DA069D5A2BB24 /* AppDelegate.m */,
+				69E69A3EDC50139D51A40D47 /* Main.storyboard */,
+				3D47A6081B872D210048AD80 /* Localizable.strings */,
+				69E69A5D86E72B293ABD5405 /* ViewController.h */,
+				69E699C76787CF49893F5BF2 /* ViewController.m */,
+				69E69C5FB0850C058B77CCFC /* ASIAuthenticationDialog.h */,
+				69E6949730504C9D9DDFD437 /* ASIAuthenticationDialog.m */,
+				69E69E2169CBCAA396671432 /* ASICacheDelegate.h */,
+				69E69C2BC64896042C98F7C7 /* ASIDataCompressor.h */,
+				69E6972122A258CF15C28338 /* ASIDataCompressor.m */,
+				69E692E46B67E01C869F6F70 /* ASIDataDecompressor.h */,
+				69E69555F976D43D1524ED01 /* ASIDataDecompressor.m */,
+				69E69EDE65A3DDEC46234F1C /* ASIDownloadCache.h */,
+				69E6947255042784E5E47A93 /* ASIDownloadCache.m */,
+				69E69A0718F56A11D5A92603 /* ASIFormDataRequest.h */,
+				69E692F12992C949871AD764 /* ASIFormDataRequest.m */,
+				69E69DEB8D11730F0EB218B4 /* ASIHTTPRequest.h */,
+				69E69071DE6CF6ED93E30551 /* ASIHTTPRequest.m */,
+				69E69CBA008826667CF924CA /* ASIHTTPRequestConfig.h */,
+				69E694DAA771471B81976A4E /* ASIHTTPRequestDelegate.h */,
+				69E69A96E2ECC22C9D77CA72 /* ASIInputStream.h */,
+				69E6987C72B176AFB816BCD6 /* ASIInputStream.m */,
+				69E69304AB533A892EC036BC /* ASINetworkQueue.h */,
+				69E69BFED8C0A92CBFCBEF22 /* ASINetworkQueue.m */,
+				69E69DD8F7DF2E5F7104E96E /* ASIProgressDelegate.h */,
+			);
+			path = GashLoginScreen;
+			sourceTree = "<group>";
+		};
+		69E69C2B61DC0B80D4CE976C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69E6934C689BF839518C4A65 /* GashLoginScreen.app */,
+				69E691A9EAA08753AFC29A38 /* GashLoginScreenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69E69CC8FBA35BC8E5FDF000 = {
+			isa = PBXGroup;
+			children = (
+				69E69C2B61DC0B80D4CE976C /* Products */,
+				69E69949FACF280432B05A8F /* GashLoginScreen */,
+				69E69F6C46AE34ECFD75A6DA /* GashLoginScreenTests */,
+			);
+			sourceTree = "<group>";
+		};
+		69E69CFBBD9E2C4CBA4151F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69E6922F29524FA8F41094DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69E69DBA5B31BFD9262D3152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69E69C5B5B2C1F1285B639E0 /* Info.plist */,
+				69E69761B021861570647023 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69E69F6C46AE34ECFD75A6DA /* GashLoginScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				69E69CFBBD9E2C4CBA4151F0 /* Supporting Files */,
+				69E6902C2EF3378765E285CB /* GashLoginScreenTests.m */,
+			);
+			path = GashLoginScreenTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69E694A37502E4CECE458FFB /* GashLoginScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E69A8F19E23C531CE44009 /* Build configuration list for PBXNativeTarget "GashLoginScreenTests" */;
+			buildPhases = (
+				69E6905ECC93C15D3ADC141C /* Sources */,
+				69E690CE189CA0B451900409 /* Frameworks */,
+				69E690E4552A0A7AC7542B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69E691DF63ADA6DAA55FD946 /* PBXTargetDependency */,
+			);
+			name = GashLoginScreenTests;
+			productName = GashLoginScreenTests;
+			productReference = 69E691A9EAA08753AFC29A38 /* GashLoginScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69E69C7BF62FCC96942CCA0D /* GashLoginScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E69176D09DAB7BAD298170 /* Build configuration list for PBXNativeTarget "GashLoginScreen" */;
+			buildPhases = (
+				69E69BA4A7C431BE737C5205 /* Sources */,
+				69E695FED4CE1938773461B2 /* Frameworks */,
+				69E693644974DE332764C31F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GashLoginScreen;
+			productName = GashLoginScreen;
+			productReference = 69E6934C689BF839518C4A65 /* GashLoginScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69E69D647E442CB1CD38CA3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = flabs;
+			};
+			buildConfigurationList = 69E69C9922AA5B182DDF6D76 /* Build configuration list for PBXProject "GashLoginScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"ru-KZ",
+			);
+			mainGroup = 69E69CC8FBA35BC8E5FDF000;
+			productRefGroup = 69E69C2B61DC0B80D4CE976C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69E69C7BF62FCC96942CCA0D /* GashLoginScreen */,
+				69E694A37502E4CECE458FFB /* GashLoginScreenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69E690E4552A0A7AC7542B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E693644974DE332764C31F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E697696D180CB12386F4F1 /* Images.xcassets in Resources */,
+				3D47A6061B872D210048AD80 /* Localizable.strings in Resources */,
+				69E690752E4C3ED6B03D88C5 /* LaunchScreen.xib in Resources */,
+				69E69406953E0B577348F796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69E6905ECC93C15D3ADC141C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E69F730CB97ECE67BA7DD8 /* GashLoginScreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E69BA4A7C431BE737C5205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E69E1F8C54F996298E3102 /* main.m in Sources */,
+				69E69BD20CD08B1F701D89CF /* AppDelegate.m in Sources */,
+				69E690589BA13C820C06AF2D /* ViewController.m in Sources */,
+				69E69CB9F3850A6F30ED593C /* ASIAuthenticationDialog.m in Sources */,
+				69E69E4F7A5D382B856F467D /* ASIDataCompressor.m in Sources */,
+				69E69E808D4F028DC1D08A64 /* ASIDataDecompressor.m in Sources */,
+				69E6955FBBAEEA095F07C3B2 /* ASIDownloadCache.m in Sources */,
+				69E6995C81ACC3E2DDDE28D3 /* ASIFormDataRequest.m in Sources */,
+				69E6924F70F23E5DBC88D5AF /* ASIHTTPRequest.m in Sources */,
+				69E698C9A1164277114A4666 /* ASIInputStream.m in Sources */,
+				69E69115E3317B7411917979 /* ASINetworkQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69E691DF63ADA6DAA55FD946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69E69C7BF62FCC96942CCA0D /* GashLoginScreen */;
+			targetProxy = 69E691770478C7E6EC05BDEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D47A6081B872D210048AD80 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D47A6071B872D210048AD80 /* en */,
+				3D47A6091B872D380048AD80 /* ru-KZ */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		69E69A3EDC50139D51A40D47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69E69DCD7C72B5569B89B409 /* Base */,
+				3D47A6051B872CA10048AD80 /* ru-KZ */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69E69B3365B17D705DA894D1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69E69D06011322B682FA4190 /* Base */,
+				3D47A6041B872CA10048AD80 /* ru-KZ */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69E6944A241DF97C3102F760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69E697E99F8817DA5523C611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GashLoginScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		69E699936095AB3F2A8ACDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69E69A857527FA7F0C4A0A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GashLoginScreen.app/GashLoginScreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GashLoginScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		69E69D001E19E6828E5AC1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GashLoginScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		69E69F0509C68F458EA4F16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GashLoginScreen.app/GashLoginScreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GashLoginScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69E69176D09DAB7BAD298170 /* Build configuration list for PBXNativeTarget "GashLoginScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E69D001E19E6828E5AC1A2 /* Debug */,
+				69E697E99F8817DA5523C611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E69A8F19E23C531CE44009 /* Build configuration list for PBXNativeTarget "GashLoginScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E69F0509C68F458EA4F16A /* Debug */,
+				69E69A857527FA7F0C4A0A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E69C9922AA5B182DDF6D76 /* Build configuration list for PBXProject "GashLoginScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E699936095AB3F2A8ACDCE /* Debug */,
+				69E6944A241DF97C3102F760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69E69D647E442CB1CD38CA3B /* Project object */;
+}

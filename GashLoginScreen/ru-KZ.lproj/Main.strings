@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "C8b-WL-o83"; */
+"C8b-WL-o83.text" = "Username";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "VFe-Tn-ajf"; */
+"VFe-Tn-ajf.normalTitle" = "Sign in";
+
+/* Class = "UILabel"; text = "Login here"; ObjectID = "XjD-AA-AJi"; */
+"XjD-AA-AJi.text" = "Login here";
+
+/* Class = "UILabel"; text = "Home Screen"; ObjectID = "fYd-w1-x83"; */
+"fYd-w1-x83.text" = "Home Screen";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "lW4-4E-VXK"; */
+"lW4-4E-VXK.text" = "Password";
